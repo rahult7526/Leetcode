@@ -12,7 +12,7 @@ public:
 
             pq.push(num);
 
-            if(pq.size() > k) pq.pop();
+            if(pq.size() > k)pq.pop();
             
         }
     }
@@ -28,8 +28,3 @@ public:
     }
 };
 
-/**
- * Your KthLargest object will be instantiated and called as such:
- * KthLargest* obj = new KthLargest(k, nums);
- * int param_1 = obj->add(val);
- */
